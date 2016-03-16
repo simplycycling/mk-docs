@@ -26,7 +26,12 @@ fix stuff!
 
 Redbox Instant, no longer in business, was a streaming video Netflix competitor.
 Working in the Ops department, I was part of a team that was responsible
-for the uptime of a high availability, cloud based SaaS. 
+for the uptime of a high availability, cloud based SaaS. Redbox Instant,
+or RBI, as we called it, was a project that involved Verizon and Redbox,
+with Tekmark providing operational support. RBI was a half a billion dollar
+project - I have to say, I'm still surprised they pulled the plug without
+getting any return on their investment. I actually thought they had a
+pretty good hook, with all the Redbox kiosks around the country.
 
 ## Personal
 
@@ -46,19 +51,3 @@ for the uptime of a high availability, cloud based SaaS.
 - nginx
 - [Wiki notes](wiki.md)
 
-
-
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
