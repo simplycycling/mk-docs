@@ -48,8 +48,9 @@ pretty good hook, with all the Redbox kiosks around the country.
 
 ### Personal notes, as well as some official documentation.
 
-- AWS
+- [AWS](documentation/aws.md)
 - Ansible
 - nginx
 - [Wiki notes](wiki.md)
+- [Helpful command line stuff](documentation/cli.md)
 

@@ -7,4 +7,5 @@ pages:
     - 'AWS': 'documentation/aws.md'
     - 'Ansible': 'documentation/ansible.md'
     - 'nginx': 'documentation/nginx.md'
+    - 'cli': 'documentation/cli.md'
 theme: readthedocs

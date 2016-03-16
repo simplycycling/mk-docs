@@ -17,7 +17,7 @@ isolated from each other, and keeps your local system nice and clean.
 At some point, I will add some basic venv documentation. Today is not 
 that day.
 
-## MKdocs
+## MkDocs
 
 Mkdocs is a very simple, markdown-based static website generator. 
 
