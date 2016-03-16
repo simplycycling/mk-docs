@@ -20,7 +20,48 @@ Mkdocs is a very simple, markdown-based static website generator.
 Setting up mkdocs is pretty simple, if you're using Linux or OS X. If 
 you're using Windows, sorry, I can't help you. 
 
-For full documentation visit [mkdocs.org](http://mkdocs.org).
+To install mkdocs, execute the following command:
+
+`pip install mkdocs`
+
+If you aren't using a venv, you'll probably have to sudo that. After installing, 
+create a directory for your mkdocs projects:
+
+`mkdir projects`
+
+Cd into that directory, and create your first mkdocs project!
+
+`mkdocs new project`
+
+This creates a directory that will contain the files for your mkdocs project. 
+The initial directory contains a yaml document, a directory, and a markdown
+file inside of the directory:
+
+    example/
+    ├── docs
+    │   └── index.md
+    └── mkdocs.yml
+
+The mkdocs.yml file is essentially the project index (not to be confused 
+with the index.html page), in which the site name, project structure and theme are
+defined. The files contained in the docs directory are the files that 
+the static html files will be created from. If you were to write "Hello 
+World" in the index.md, and then execute the following command:
+
+`mkdocs build`
+
+you would find a new directory, called site, inside your project directory.
+This would contain html, css, javascript, and whatever else is necessary
+for your website.
+
+To preview your site, there is a built in webserver, that auto-updates as
+you work on your site. To launch this, run the `mkdocs serve` command:
+
+    $ mkdocs serve
+    Running at: http://127.0.0.1:8000/
+
+That's a very basic overview of how to get started with mkdocs - for 
+full documentation visit [mkdocs.org](http://mkdocs.org).
 
 ## s3
 
