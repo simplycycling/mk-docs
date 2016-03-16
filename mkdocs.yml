@@ -2,4 +2,5 @@ site_name: HSIR Inc
 pages:
 - Home: index.md
 - About: about.md
+- Wiki Notes: wiki.md
 theme: readthedocs

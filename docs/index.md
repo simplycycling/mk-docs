@@ -29,6 +29,7 @@ Systems Administrator - Redbox Instant
 - AWS
 - Ansible
 - nginx
+- Wiki notes
 
 
 For full documentation visit [mkdocs.org](http://mkdocs.org).
