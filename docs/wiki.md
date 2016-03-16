@@ -20,6 +20,8 @@ Mkdocs is a very simple, markdown-based static website generator.
 Setting up mkdocs is pretty simple, if you're using Linux or OS X. If 
 you're using Windows, sorry, I can't help you. 
 
+For full documentation visit [mkdocs.org](http://mkdocs.org).
+
 ## s3
 
 Come on. You know what s3 is.
