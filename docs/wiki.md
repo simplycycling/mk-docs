@@ -122,3 +122,15 @@ will be provided with an endpoint, which is the URL you will hit to see
 your wiki. You can also set up a custom domain name, if you have one, but 
 that goes beyond the scope of this wiki (it's pretty easy, though, and 
 in the AWS documentation).
+
+### Workflow
+
+The basic workflow is as follows:
+
+1. Create and/or edit a page
+2. Run `mkdocs serve` to preview what's being worked on
+3. Once I'm happy, kill the server and run `mkdocs build --clean` to 
+build the site - the --clean flag gets rid of any files that are no longer needed
+4. Push the contents of the site directory to s3, using aws cli (the 
+command I use is `aws s3 --profile rog sync . s3://mybucketname`)
+5. Commit and push the changes to git (put the site dir in the .gitignore)
