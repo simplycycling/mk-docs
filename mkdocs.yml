@@ -3,4 +3,8 @@ pages:
 - Home: index.md
 - About: about.md
 - Wiki Notes: wiki.md
+- Documentation:
+    - 'AWS': 'documentation/aws.md'
+    - 'Ansible': 'documentation/ansible.md'
+    - 'nginx': 'documentation/nginx.md'
 theme: readthedocs
