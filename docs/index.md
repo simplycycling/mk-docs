@@ -9,9 +9,24 @@ _We're going full on Rog, here_
 
 Senior Systems Engineer - Viddler
 
+Viddler is a video hosting company that specializes in corporate training
+solutions, incorporating the company's patented technology to provide video-
+and audio-based instruction, scenario-based practice exercises, and
+context-aware performance feedback. Viddler is based in Bethlehem, PA, in
+the beautiful Lehigh Valley. It has been a challenging and rewarding journey
+so far, and for me has become one of those jobs where you look around the
+room and realize that this group has become family.
+
+Also, I get to do my favorite things here - build stuff, break stuff, and
+fix stuff!
+
 **Previous Positions**
 
-Systems Administrator - Redbox Instant
+**Systems Administrator - Redbox Instant** November 2012 - March 2014
+
+Redbox Instant, no longer in business, was a streaming video Netflix competitor.
+Working in the Ops department, I was part of a team that was responsible
+for the uptime of a high availability, cloud based SaaS. 
 
 ## Personal
 
