@@ -5,7 +5,11 @@ There are two components to this wiki:
 - mkdocs
 - s3
 
-Both are packages that are installable via python pip. Personally, I like
+I also use the aws command line tools to push the files from my local
+machine to s3. If you don't know what I'm talking about, just use the
+console.
+
+Mkdocs is a package that is installable via python pip. Personally, I like
 to install things like this in a `venv`, which creates an isolated python 
 environment. This allows you to keep the set of dependencies separate and
 isolated from each other, and keeps your local system nice and clean.
