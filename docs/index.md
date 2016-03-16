@@ -17,6 +17,8 @@ the beautiful Lehigh Valley. It has been a challenging and rewarding journey
 so far, and for me has become one of those jobs where you look around the
 room and realize that this group has become family.
 
+Except for Fargo.
+
 Also, I get to do my favorite things here - build stuff, break stuff, and
 fix stuff!
 
