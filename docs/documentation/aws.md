@@ -25,7 +25,8 @@ How many total nodes are running:
 
     aws ec2 describe-instances | grep running | wc -l
     
-This is a really good command - it describes instances, broken down into
+This is a really good example of the kind of flexibility and power you 
+have with the aws command line tools - it describes instances, broken down into
 instance ID, running state, Availability Zone, and tags:
 
     aws ec2 describe-instances --query 'Reservations[].Instances[].[InstanceId, State.Name, Placement.AvailabilityZone, Tags]'
