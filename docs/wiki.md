@@ -123,9 +123,22 @@ start googling - I'm not covering that here). By default, mkdocs creates
 an index.html file which will serve as the index document, so simply type
 `index.html` in the text field for Index Document. Click save, and you 
 will be provided with an endpoint, which is the URL you will hit to see 
-your wiki. You can also set up a custom domain name, if you have one, but 
-that goes beyond the scope of this wiki (it's pretty easy, though, and 
-in the AWS documentation).
+your wiki. You can also set up a custom domain name, if you like. Assuming
+that you already have a domain name to use with your s3 bucket, you will
+name your s3 bucket the same as the domain name.
+
+For example, I own `militantbuddhist.com`, and I wanted this wiki to be
+accessible via the url `wiki.militantbuddhist.com`. So very simple - I
+created a bucket called wiki.militantbuddhist.com using the following s3
+command:
+
+    aws s3 --profile rog mb s3://wiki.militantbuddhist.com
+    
+After this, I went into Route 53, and pointed wiki.militantbuddhist.com
+at the endpoint given to me when I set up the static website (this is a
+little out of order at this point, I know), setting it up as a cname.
+
+That's it, done. Simpler than setting up a vhost in nginx.
 
 ### Workflow
 
