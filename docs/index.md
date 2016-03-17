@@ -35,15 +35,6 @@ project - I have to say, I'm still surprised they pulled the plug without
 getting any return on their investment. I actually thought they had a
 pretty good hook, with all the Redbox kiosks around the country.
 
-## Personal
-
-### Interests
-
-**Hockey** - NJ Devils  
-**Cycling** - Former racer/race enthusiast, now a fat MAMIL.  
-**MMA** - Conor McGregor fears Frankie Edgar!  
-**Tech!** - Who am I kidding, I never really stop working.  
-
 ## Technical Documentation
 
 ### Personal notes, as well as some official documentation.
@@ -54,3 +45,11 @@ pretty good hook, with all the Redbox kiosks around the country.
 - [Wiki notes](wiki.md)
 - [Helpful command line stuff](documentation/cli.md)
 
+## Personal
+
+### Interests
+
+**Hockey** - NJ Devils  
+**Cycling** - Former racer/race enthusiast, now a fat MAMIL.  
+**MMA** - Conor McGregor fears Frankie Edgar!  
+**Tech!** - Who am I kidding, I never really stop working.  
