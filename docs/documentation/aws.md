@@ -31,5 +31,9 @@ instance ID, running state, Availability Zone, and tags:
 
     aws ec2 describe-instances --query 'Reservations[].Instances[].[InstanceId, State.Name, Placement.AvailabilityZone, Tags]'
     
+And this is just convenient, if you need to create a new key.
+
+    aws ec2 create-key-pair --key-name MyKeyPair --query 'KeyMaterial' --output text > MyKeyPair.pem
+    
 Most of these commands will give you carpal tunnel syndrome if you type
 them out, regularly, so I'd recommend aliasing them.
