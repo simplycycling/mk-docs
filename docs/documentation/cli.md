@@ -14,4 +14,27 @@ That's right, stuff. Good stuff, mainly.
 **Create new .gpg-agent-info (Linux)**
 
     gpg-agent --daemon --enable-ssh-support --write-env-file ~/.gpg-agent-info
+    
+### Tmux
 
+(I have ` set as the prefix)
+
+Split pane horizontally
+
+    ` % (`+shift+5)
+
+Split pane vertically 
+
+    ` " (`+shift+')
+
+Switch window
+
+    ` directional arrow
+    
+Detach session
+
+    ` d
+    
+Attach session
+
+    tmux attach-session -t 1
