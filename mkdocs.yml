@@ -8,4 +8,5 @@ pages:
     - 'Ansible': 'documentation/ansible.md'
     - 'nginx': 'documentation/nginx.md'
     - 'cli': 'documentation/cli.md'
+    - 'Linux dev setup': 'documentation/linux-dev-setup.md'
 theme: readthedocs
