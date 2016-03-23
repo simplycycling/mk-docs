@@ -48,6 +48,7 @@ not that hard.
 
     ansible-playbook main.yml -K
     
-
+I don't like passwordless sudo, so I use the -K flag, which prompts for
+sudo password.
 
 ## Post-Ansible tasks
