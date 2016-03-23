@@ -34,10 +34,20 @@ not that hard.
 
 ### Install pip
 
+    sudo apt-get python-pip
+
 ### Install Ansible
+
+    sudo pip install ansible
 
 ### Install git
 
+    sudo apt-get install git
+
 ## Run Ansible
+
+    ansible-playbook main.yml -K
+    
+
 
 ## Post-Ansible tasks
