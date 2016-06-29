@@ -37,3 +37,11 @@ And this is just convenient, if you need to create a new key.
     
 Most of these commands will give you carpal tunnel syndrome if you type
 them out, regularly, so I'd recommend aliasing them.
+
+The following is for when you decide to learn packer, and don't want to open the console to deregister the ami and delete the snapshot.
+
+    aws ec2 --profile rog deregister-image --image-id ami-xxxxxxx
+    aws ec2 --profile rog describe-snapshots --owner-ids xxxxxxxxxxxx
+    aws ec2 --profile rog delete-snapshot --snapshot-id snap-xxxxxxx
+
+For that second command, you're going to get the owner id from the profile page of the owner of your AWS account.
