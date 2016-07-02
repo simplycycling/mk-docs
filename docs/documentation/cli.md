@@ -73,6 +73,8 @@ Attach session
 
     tmux attach-session -t 1
 
+### Miscellaneous 
+
 Remove Docker images that are more than 24 hours old
 
     docker inspect -f '{{.Id}},{{.State.Running}},{{.State.FinishedAt}}' $(docker ps -qa) | \
